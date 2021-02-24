@@ -1,22 +1,27 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import { AboutCard } from "./Cards";
+import GlobalStyle from "./GlobalStyle";
+import { Header } from "./Header";
+import { Footer } from "./Footer";
 
-const App: React.FC = () => {
+const App = (): JSX.Element => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <a
-          className="App-link"
-          href="https://github.com/ncbecker"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GitHub
-        </a>
-      </header>
-    </div>
+    <>
+      <GlobalStyle />
+      <Header />
+      <AboutCard />
+      <AboutCard />
+      <AboutCard />
+      <AboutCard />
+      <AboutCard />
+      <AboutCard />
+      <AboutCard />
+      <AboutCard />
+      <AboutCard />
+      <AboutCard />
+      <AboutCard />
+      <AboutCard />
+      <Footer />
+    </>
   );
 };
 
