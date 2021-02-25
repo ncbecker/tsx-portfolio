@@ -5,6 +5,7 @@ const Blur = styled.div`
   bottom: 0;
   z-index: 99;
   width: 100%;
+  padding: 1rem;
   display: flex;
   justify-content: flex-end;
   backdrop-filter: blur(2.5rem);
