@@ -1,0 +1,5 @@
+.git
+.eslintcache
+*Dockerfile*
+node_modules
+.env
