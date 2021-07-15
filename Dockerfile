@@ -2,11 +2,11 @@ FROM node:lts-buster-slim
 
 WORKDIR /app
 
-COPY package*.json /app
+COPY . /app
 
 RUN npm install
- 
-COPY . /app
+
+ENV NODE_ENV production
  
 RUN npm run build
 
